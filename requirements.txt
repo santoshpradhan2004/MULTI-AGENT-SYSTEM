@@ -1,0 +1,34 @@
+
+# LangChain framework and LCEL / Runnables
+langchain
+langchain-core
+langgraph
+
+# Groq LLM integration
+langchain-groq
+groq
+
+# Tavily web search
+langchain-tavily
+tavily-python
+
+# BeautifulSoup web scraping
+beautifulsoup4
+requests
+lxml
+
+# Environment variables
+python-dotenv
+
+# Data validation and structured outputs
+pydantic
+
+# Terminal output
+rich
+
+# Optional: backend API for React frontend
+fastapi
+uvicorn[standard]
+
+# Optional: testing
+pytest
