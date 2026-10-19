@@ -409,7 +409,7 @@ if st.session_state.running and not st.session_state.done:
     topic_val = st.session_state.topic_input
 
     # ── Step 1: Search ──
-    with st.spinner("🔍  Search Agent is working…"):
+    with st.spinner("  Search Agent is working…"):
         search_agent = build_search_agent()
         sr = search_agent.invoke({
             "messages": [("user", f"Find recent, reliable and detailed information about: {topic_val}")]
